@@ -1,0 +1,15 @@
+.board-row {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  width: 300px;
+}
+
+.squere {
+  border: 1px solid;
+  width: calc(300px / 3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
